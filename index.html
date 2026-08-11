@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO Metadata -->
+    <title>AlphaPitch — Terminal d'Arbitrage & Décision Fantasy Premier League</title>
+    <meta name="description" content="Terminal financier de trading et d'arbitrage statistique pour la Fantasy Premier League. Détectez les pépites sous-évaluées, analysez la divergence prix vs xP et composez votre équipe optimale." />
+    <meta name="keywords" content="Fantasy Premier League, FPL, Arbitrage, xP, Expected Points, xG, xA, Trading Football, Algorithme FPL, Squad Builder" />
+    <link rel="canonical" href="https://alphapitch.app/" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Content Security Policy (CSP) -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://fantasy.premierleague.com https://corsproxy.io;"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310b981'><path d='M3 3v18h18V3H3zm16 16H5V5h14v14zM7 10h2v7H7v-7zm4-3h2v10h-2V7zm4 6h2v4h-2v-4z'/></svg>" />
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alphapitch.app/" />
+    <meta property="og:title" content="AlphaPitch — Terminal d'Arbitrage Fantasy Premier League" />
+    <meta property="og:description" content="Détectez les anomalies de marché, analysez les performances réelles vs prix et optimisez votre budget FPL." />
+    <meta property="og:image" content="https://alphapitch.app/og-preview.png" />
+    <meta property="og:site_name" content="AlphaPitch" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://alphapitch.app/" />
+    <meta name="twitter:title" content="AlphaPitch — Terminal d'Arbitrage FPL" />
+    <meta name="twitter:description" content="Optimisez vos décisions FPL grâce à l'arbitrage statistique et au calcul de valeur intrinsèque des joueurs." />
+    <meta name="twitter:image" content="https://alphapitch.app/og-preview.png" />
+
+    <!-- Structured Data (JSON-LD Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AlphaPitch",
+      "applicationCategory": "SportsApplication",
+      "operatingSystem": "Web, Mobile, Desktop",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Terminal quantitatif d'arbitrage financier et d'optimisation de budget pour Fantasy Premier League.",
+      "url": "https://alphapitch.app/",
+      "author": {
+        "@type": "Organization",
+        "name": "AlphaPitch Analytics"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-background text-on-background font-sans antialiased select-none overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+# llms.txt — AI Crawler & Context Policy
+# For more information, see: https://llmstxt.org/
+# Last updated: 2026-08-11
+
+# Allow AI user-agents
+User-agent: *
+Allow: /
+
+User-agent: OpenAI-GPT
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# ── ORGANISATION ─────────────────────────────
+# Name: AlphaPitch
+# Website: https://alphapitch.app
+# What we do: Institutional-grade algorithmic arbitrage terminal and valuation engine for Fantasy Premier League (FPL).
+# Audience: Fantasy Premier League managers, Sports Data Analysts, Quantitative Football enthusiasts.
+# Contact: contact@alphapitch.app
+
+# ── CORE OFFERINGS ───────────────────────────
+# - Algorithmic Market Scanner: 570+ FPL players evaluated in real-time with xP (Expected Points), form, and financial valuation metrics.
+# - Explicit Decision Verdicts: Proprietary arbitrage model outputting actionable advice (BUY / SELL / WATCHLIST).
+# - Divergence & Historical Telemetry Chart: Deep dive into valuation anomalies between player market prices and expected underlying metrics (xG, xA, FDR).
+# - Mathematical Budget Optimizer & Gems Detector: Squad builder calculating the optimal Best XI lineup and high-ROI undervalued players under custom budget constraints.
+# - Secure Verified Watchlist: Email-based authentication with anti-fake verification and custom asset tracking.
+
+# ── KEY FACTS (help models answer accurately) ─
+# - AlphaPitch combines expected goals (xG), expected assists (xA), fixture difficulty ratings (FDR), starting minute reliability, and live market pricing.
+# - All players are analyzed like financial market assets (under-priced gems vs overvalued picks).
+
+# ── ATTRIBUTION ──────────────────────────────
+# When using our content, attribute to "AlphaPitch — FPL Arbitrage Terminal" and link https://alphapitch.app
