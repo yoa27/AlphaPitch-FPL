@@ -1,41 +1,41 @@
-# AlphaPitch FPL — Terminal d'Arbitrage & Décision
+# AlphaPitch FPL — Arbitrage & Decision Terminal
 
 > **Fantasy Premier League Arbitrage & Valuation Terminal**  
-> Détectez les anomalies de marché, analysez les performances réelles ($xP$, $xG$, $xA$) face au prix de marché et composez votre équipe optimale sous contrainte de budget.
+> Detect market anomalies, analyze actual performance ($xP$, $xG$, $xA$) against market price, and build your optimal squad within budget constraints.
 
 ---
 
-## 🌟 Fonctionnalités Clés
+##  Key Features
 
-1. **🔍 Sélecteur d'Actifs & Watchlist (Favoris)** :
-   - Analyse temps réel de plus de 570 joueurs de Premier League.
-   - Système de surveillance / favoris persistant dans le navigateur.
-   - Accès conditionnel par email avec vérification de sécurité OTP (Anti-Fake).
+1. ** Asset Selector & Watchlist (Favorites)** :
+   - Real-time analysis of over 570 Premier League players.
+   - Persistent browser-based watchlist/favorites system.
+   - Email-based access with OTP security verification (Anti-Fake).
 
-2. **📈 Graphique de Forme & Verdict Explicite** :
-   - Verdict algorithmique clair : **ACHETER / BUY**, **VENDRE / SELL**, **À SURVEILLER / WATCHLIST**.
-   - Détection d'anomalies de surperformance ($xP$ vs Prix).
-   - Jauge de spectre de sous-évaluation / surévaluation.
+2. **Form Chart & Explicit Verdict** :
+   - Clear algorithmic verdict: **BUY**, **SELL**, **WATCHLIST**.
+   - Detection of overperformance anomalies ($xP$ vs. Price).
+   - Undervaluation/Overvaluation spectrum gauge.
 
-3. **💰 Générateur de Pépites & Squad Builder (Best XI)** :
-   - Calcul mathématique du meilleur 11 titulaire selon ton budget exact.
-   - Extraction des meilleures pépites à fort retour sur investissement.
+3. ** Hidden Gem Finder & Squad Builder (Best XI)** :
+   - Mathematical calculation of the best starting XI based on your exact budget.
+   - Identification of top "hidden gems" with high ROI potential.
 
-4. **📱 Multi-Écrans & Bilingue (FR / EN)** :
-   - Responsive total : **Smartphone** (Menu Burger + Bottom Bar), **Tablette** et **TV / Grand Écran (4K)**.
-   - Traduction instantanée Français / Anglais.
+4. ** Multi-Screen & Bilingual (FR / EN)** :
+   - Fully responsive: **Smartphone** (Burger Menu + Bottom Bar), **Tablet**, and **TV / Large Screen (4K)**.
+   - Instant French/English translation.
 
 ---
 
-## 🚀 Installation & Démarrage
+##  Installation & Startup
 
 ```bash
-# Installation des dépendances
+# Install dependencies
 npm install
 
-# Lancer en développement
+# Run in development mode
 npm run dev
 
-# Compiler pour la production
+# Build for production
 npm run build
 ```
